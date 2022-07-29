@@ -1,4 +1,16 @@
+@media only screen and (min-device-width: 992px) {
+    .carousel-custom {
+        padding-bottom: 11.25rem;
+    }
+}
 
-.carousel-custom{
-    padding-bottom: 11.25rem;
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+    .card-width {
+        width: 100% !important;
+    }
+}
+
+.row>* {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }
